@@ -18,6 +18,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun UserInfo(name: String, age: Int) {
     Text(
-        text = "I'm $name. My age $age years old."
+        text = "Hello $name! Your are $age years old."
     )
 }
